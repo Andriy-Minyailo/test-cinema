@@ -1,0 +1,18 @@
+:root {
+    --primary-text-color: #757575;
+    --primary-text-title: #212121;
+    --accent-color: #2196f3;
+    --logo-header-end-color: #000000;
+    --second-backgroun-color: #f5f4fa;
+    --hero-footer-backgroun-color: #2f303a;
+    --primary-backgroun-color: #ffffff;
+    --margin30px: 30px;
+}
+
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    font-style: normal;
+    // @include font();
+    color: var(--primary-text-color);
+    background-color: #ffffff;
+}
